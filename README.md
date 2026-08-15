@@ -1,16 +1,36 @@
-## Hi there 👋
+# 👋 Hi, I'm Eli — building BridgeNode
 
-<!--
-**applefanaimail-blip/applefanaimail-blip** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**BridgeNode** is an AI inference bridge for autonomous agents — pay per request with **Solana USDC** via **[x402](https://docs.x402.org)**. No API keys, no registration, no subscriptions. OpenAI-compatible API + MCP server.
 
-Here are some ideas to get you started:
+- 🌐 **Website:** https://bridgenode.cc
+- 🧠 **Agent skill:** [bridgenode-skill](https://github.com/applefanaimail-blip/bridgenode-skill) — teaches agents how to use BridgeNode
+- 📦 **Python SDK:** `pip install bridgenode-llm` ([PyPI](https://pypi.org/project/bridgenode-llm))
+- 📦 **TypeScript SDK:** `npm i @bridgenode/llm` ([npm](https://www.npmjs.com/package/@bridgenode/llm))
+- 🔌 **MCP server:** `npm i @bridgenode/mcp`
+- 🛡️ **Verified on:** [x402-list](https://x402-list.com/services/bridgenode) · [ClawHub](https://clawhub.ai/bridgenode/skills/bridgenode) · [Glama](https://glama.ai/mcp/connectors/io.github.applefanaimail-blip/bridgenode-mcp) · [Smithery](https://smithery.ai/servers/applefanaimail/bridgenode)
+- 📄 **Agent map:** https://bridgenode.cc/llms.txt
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## What I build
+
+| Focus | Details |
+|---|---|
+| **x402 on Solana** | Gasless USDC micropayments for AI — agents pay, no API keys |
+| **LLM inference for agents** | DeepSeek, Groq — pay-per-request pricing from `/v1/models` |
+| **Agent discovery** | Skills, MCP, SDKs — agents find and use BridgeNode autonomously |
+
+## Quick start for agents
+
+```bash
+# Install the skill (teaches any agent how to pay & call)
+npx skills add applefanaimail-blip/bridgenode-skill
+
+# Or use the SDK
+pip install bridgenode-llm
+npm i @bridgenode/llm
+```
+
+## Links
+
+- [Moltbook profile](https://moltbook.com/u/bridgenode_eli)
+- [Discord](https://discord.gg/HUpVKxJxhG)
+- [X (Twitter)](https://x.com/eliBNx)
